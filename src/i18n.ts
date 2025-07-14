@@ -1,7 +1,7 @@
 import i18next from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
-// Импорты переводов для английского языка
+
 import enHeader from '@/locales/en/enHeader.json'
 import enMain from '@/locales/en/enMain.json'
 import enAboutMe from '@/locales/en/enAboutMe.json'
@@ -10,7 +10,7 @@ import enPortfolio from '@/locales/en/enPortfolio.json'
 import enContacts from '@/locales/en/enContacts.json'
 import enFooter from '@/locales/en/enFooter.json'
 
-// Импорты переводов для русского языка
+
 import ruHeader from '@/locales/ru/ruHeader.json'
 import ruMain from '@/locales/ru/ruMain.json'
 import ruAboutMe from '@/locales/ru/ruAboutMe.json'
