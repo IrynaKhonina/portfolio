@@ -2,7 +2,7 @@ import { Project } from './project'
 import styled from 'styled-components'
 import imgGame from '@/assets/portfolio/game.webp'
 import imgTasks from '@/assets/portfolio/tasks.webp'
-import imgNetwork from '@/assets/portfolio/network.webp'
+import imgPizza from '@/assets/portfolio/pizzanext.webp'
 import imgGreenCart from '@/assets/portfolio/greenCart.webp'
 import { Container, FlexWrapper, SectionTitle } from '@/components'
 import { Fade } from 'react-awesome-reveal'
@@ -20,11 +20,11 @@ export const Portfolio = () => {
       description: `${t('descriptionGame', { ns: 'portfolio' })}`,
     },
     {
-      name: 'ChitChat',
-      demo: '',
-      code: '',
-      photo: imgNetwork,
-      description: `${t('descriptionSocialNetwork', { ns: 'portfolio' })}`,
+      name: 'NextPizza',
+      demo: 'https://nextpizza-shadcn.vercel.app/',
+      code: 'https://github.com/IrynaKhonina/nextpizza-shadcn',
+      photo: imgPizza,
+      description: `${t('descriptionNextPizza', { ns: 'portfolio' })}`,
     },
     {
       name: 'Check Flow',
