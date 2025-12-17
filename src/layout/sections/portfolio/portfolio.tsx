@@ -27,11 +27,11 @@ export const Portfolio = () => {
       description: `${t('descriptionSocialNetwork', { ns: 'portfolio' })}`,
     },
     {
-      name: 'Todolist',
+      name: 'Check Flow',
       demo: 'https://irynakhonina.github.io/todolist/',
       code: 'https://github.com/IrynaKhonina/todolist',
       photo: imgTasks,
-      description: `${t('descriptionTodolist', { ns: 'portfolio' })}`,
+      description: `${t('descriptionCheckFlow', { ns: 'portfolio' })}`,
     },
     {
       name: 'GreenCart',
