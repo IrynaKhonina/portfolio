@@ -28,7 +28,7 @@ export const Portfolio = () => {
     },
     {
       name: 'Check Flow',
-      demo: 'https://irynakhonina.github.io/todolist/',
+      demo: 'https://todolist-lake-eta.vercel.app/',
       code: 'https://github.com/IrynaKhonina/todolist',
       photo: imgTasks,
       description: `${t('descriptionCheckFlow', { ns: 'portfolio' })}`,
